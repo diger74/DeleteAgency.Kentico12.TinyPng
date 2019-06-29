@@ -12,5 +12,8 @@
 
         [JsonIgnore]
         public int CompressionCount { get; set; }
+
+        [JsonIgnore]
+        public string Location { get; set; }
     }
 }
