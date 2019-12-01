@@ -1,4 +1,4 @@
-﻿namespace Delete.Kentico12.TinyPng.Models
+﻿namespace DeleteAgency.Kentico12.TinyPng.Models
 {
     using Newtonsoft.Json;
 

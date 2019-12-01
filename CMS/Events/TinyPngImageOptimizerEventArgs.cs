@@ -1,9 +1,9 @@
 ﻿using System;
 using CMS.DocumentEngine;
 using CMS.MediaLibrary;
-using Delete.Kentico12.TinyPng.Models;
+using DeleteAgency.Kentico12.TinyPng.Models;
 
-namespace Delete.Kentico12.TinyPng.Events
+namespace DeleteAgency.Kentico12.TinyPng.Events
 {
     public class TinyPngImageOptimizerEventArgs : EventArgs
     {

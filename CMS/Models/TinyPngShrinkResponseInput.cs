@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Delete.Kentico12.TinyPng.Models
+namespace DeleteAgency.Kentico12.TinyPng.Models
 {
     public partial class TinyPngShrinkResponseInput
     {

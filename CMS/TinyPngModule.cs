@@ -5,14 +5,14 @@ using CMS.DocumentEngine;
 using CMS.EventLog;
 using CMS.MediaLibrary;
 using CMS.SiteProvider;
-using Delete.Kentico12.TinyPng;
+using DeleteAgency.Kentico12.TinyPng;
 
 [assembly: RegisterModule(typeof(TinyPngModule))]
-namespace Delete.Kentico12.TinyPng
+namespace DeleteAgency.Kentico12.TinyPng
 {
     public class TinyPngModule : Module
     {
-        public TinyPngModule() : base("Delete.Kentico12.TinyPng", true)
+        public TinyPngModule() : base("DeleteAgency.Kentico12.TinyPng", true)
         {
         }
 

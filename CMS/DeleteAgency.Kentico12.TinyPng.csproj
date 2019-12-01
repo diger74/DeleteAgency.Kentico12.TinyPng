@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Delete.Kentico12.TinyPng</RootNamespace>
-    <AssemblyName>Delete.Kentico12.TinyPng</AssemblyName>
+    <RootNamespace>DeleteAgency.Kentico12.TinyPng</RootNamespace>
+    <AssemblyName>DeleteAgency.Kentico12.TinyPng</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -112,11 +112,11 @@
     <Compile Include="Models\TinyPngShrinkResponseOutput.cs" />
     <Compile Include="Models\TinyPngShrinkResponse.cs" />
     <Compile Include="TinyPngImageOptimizer.cs" />
-    <Compile Include="Properties\Delete.Kentico12.TinyPngAssemblyInfo.cs" />
+    <Compile Include="Properties\DeleteAgency.Kentico12.TinyPngAssemblyInfo.cs" />
     <Compile Include="TinyPngModule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.Delete.Kentico12.TinyPng.config" />
+    <None Include="packages.DeleteAgency.Kentico12.TinyPng.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -18,7 +18,7 @@ namespace CMSApp.CMSModules
 
         private void BuildNuSpecManifestOnAfter(object sender, BuildNuSpecManifestEventArgs e)
         {
-            if (!e.ResourceName.Equals("Delete.Kentico12.TinyPng", StringComparison.OrdinalIgnoreCase)) return;
+            if (!e.ResourceName.Equals("DeleteAgency.Kentico12.TinyPng", StringComparison.OrdinalIgnoreCase)) return;
 
             e.Manifest.Metadata.DependencySets = new List<ManifestDependencySet>
             {
@@ -33,7 +33,8 @@ namespace CMSApp.CMSModules
                     }
                 }
             };
-            e.Manifest.Metadata.Owners = "Delete Agency";
+            e.Manifest.Metadata.Owners = "DeleteAgency";
+            e.Manifest.Metadata.Authors = "Dmitry Bastron";
             e.Manifest.Metadata.Tags = "Kentico, TinyPNG, image optimization";
         }
     }

@@ -6,11 +6,11 @@ using CMS;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Delete.Kentico12.TinyPng")]
+[assembly: AssemblyTitle("DeleteAgency.Kentico12.TinyPng")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Delete.Kentico12.TinyPng")]
+[assembly: AssemblyProduct("DeleteAgency.Kentico12.TinyPng")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

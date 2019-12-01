@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Delete.Kentico12.TinyPng.Events
+namespace DeleteAgency.Kentico12.TinyPng.Events
 {
     public class TinyPngImageOptimizerEvents
     {

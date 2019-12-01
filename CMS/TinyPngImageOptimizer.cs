@@ -8,11 +8,11 @@ using CMS.DocumentEngine;
 using CMS.Helpers;
 using CMS.MediaLibrary;
 using CMS.SiteProvider;
-using Delete.Kentico12.TinyPng.Events;
-using Delete.Kentico12.TinyPng.Models;
+using DeleteAgency.Kentico12.TinyPng.Events;
+using DeleteAgency.Kentico12.TinyPng.Models;
 using Newtonsoft.Json;
 
-namespace Delete.Kentico12.TinyPng
+namespace DeleteAgency.Kentico12.TinyPng
 {
     public class TinyPngImageOptimizer
     {
