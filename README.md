@@ -31,3 +31,6 @@ This NuGet package is compatible with Kentico 12, any Hotfix, both Portal Engine
 
 ## Support
 Found a bug? Please raise an Issue in the GitHub or contact me.
+
+## Referencies
+For more information please read my [blog post](https://diger74.net/image-optimization-using-tinypng-api).
