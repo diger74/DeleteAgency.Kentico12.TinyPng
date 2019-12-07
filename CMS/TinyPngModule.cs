@@ -28,6 +28,9 @@ namespace DeleteAgency.Kentico12.TinyPng
 
             AttachmentHistoryInfo.TYPEINFO.Events.Insert.Before += AttachmentOnBeforeSave;
 
+            MetaFileInfo.TYPEINFO.Events.Insert.Before += MetaFileOnBeforeSave;
+            MetaFileInfo.TYPEINFO.Events.Update.Before += MetaFileOnBeforeSave;
+
             EventLogProvider.LogInformation("TinyPNG", "MODULESTART");
         }
 
@@ -78,6 +81,17 @@ namespace DeleteAgency.Kentico12.TinyPng
             {
                 var optimizer = new TinyPngImageOptimizer(SiteContext.CurrentSiteName);
                 optimizer.Optimize(image);
+            }
+        }
+
+        private void MetaFileOnBeforeSave(object sender, ObjectEventArgs e)
+        {
+            if (e.Object == null) return;
+
+            if (e.Object is MetaFileInfo metaFile)
+            {
+                var optimizer = new TinyPngImageOptimizer(SiteContext.CurrentSiteName);
+                optimizer.Optimize(metaFile);
             }
         }
     }

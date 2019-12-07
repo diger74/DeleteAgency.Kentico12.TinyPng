@@ -1,17 +1,12 @@
 ﻿using System;
-using CMS.DocumentEngine;
-using CMS.MediaLibrary;
+using CMS.DataEngine;
 using DeleteAgency.Kentico12.TinyPng.Models;
 
 namespace DeleteAgency.Kentico12.TinyPng.Events
 {
     public class TinyPngImageOptimizerEventArgs : EventArgs
     {
-        public MediaFileInfo MediaFile { get; set; }
-
-        public AttachmentHistoryInfo PageAttachmentVersion { get; set; }
-
-        public AttachmentInfo PageAttachment { get; set; }
+        public BaseInfo Image { get; set; }
 
         public TinyPngShrinkResponse ShrinkResponse { get; set; }
 
