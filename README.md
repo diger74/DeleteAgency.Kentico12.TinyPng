@@ -1,4 +1,4 @@
-[![Nuget](https://img.shields.io/badge/nuget-v1.1.0-blue.svg)](https://www.nuget.org/packages/DeleteAgency.Kentico12.TinyPng/)
+[![Nuget](https://img.shields.io/badge/nuget-v1.2.0-blue.svg)](https://www.nuget.org/packages/DeleteAgency.Kentico12.TinyPng/)
 
 # DeleteAgency.Kentico12.TinyPng
 Automatically shrink images using TinyPNG API during uploading to Media Library or as a Page Attachment. Applicable for Kentico 12 CMS.
@@ -22,7 +22,7 @@ All contributions are very much welcomed! Setting up a development environment i
    git clone https://github.com/diger74/DeleteAgency.Kentico12.TinyPng
    ```
 1. Install Kentico default **Dancing Goat MVC** sample site
-2. Import **TinyPNG_KenticoModule.zip** package via Kentico Import interface in Sites application
+2. Import **TinyPNG_Kentico12_Module.zip** package via Kentico Import interface in Sites application
 3. Copy the content of the **CMS** folder from code repository to the Dancing Goat website **CMS** folder
 4. Add **DeleteAgency.Kentico12.TinyPng.csproj** project into Dancing Goat **WebApp** solution, build and open Kentico admin interface
 
